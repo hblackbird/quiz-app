@@ -1,0 +1,43 @@
+.sorular{
+    max-width: 700px;
+    width: 100%;
+}
+.sorular-title{
+    margin-bottom: 10px;
+    min-height: 75px;
+    height: fit-content;
+    font-size: 24px;
+    color: white;
+}
+.sorular-gerisayim{
+    width: 45px;
+    height: 45px;
+    background-color: darkblue;
+    color: white;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sorular button{
+    min-width: 48%;
+    width: fit-content;
+    overflow: hidden;
+    text-align: center;
+    height: 35px;
+    margin: .3rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.sorular button:hover{
+    background: linear-gradient(90deg, rgba(12,140,189,1) 0%, rgba(8,165,191,1) 54%, rgba(0,212,255,1) 100%);
+    color: white;
+    border: 1px solid black;
+}
+.loading{
+    margin-left: 50%;
+}
